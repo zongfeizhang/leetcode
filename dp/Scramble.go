@@ -1,6 +1,6 @@
 package dp
 
-func IsScramble(s1 string, s2 string) bool {
+func IsScramble11(s1 string, s2 string) bool {
 	records := make(map[string]int)
 	return dfs(s1,s2,records)
 }
