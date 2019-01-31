@@ -1,6 +1,6 @@
 package dp
 
-func minPathSum(grid [][]int) int {
+func MinPathSum(grid [][]int) int {
 	if grid==nil||len(grid)==0||grid[0]==nil{
 		return 0
 	}
