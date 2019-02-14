@@ -1,6 +1,6 @@
 package bs
 
-func Search(nums []int, target int) int {
+func search(nums []int, target int) int {
 	return binarySearch(nums,0,len(nums)-1,target)
 }
 
