@@ -1,12 +1,13 @@
 package main
 
 import (
-	"leetcode/bs"
+	"leetcode/array"
 	"fmt"
 )
 
 func main() {
-	nums := []int{5,7,7,8,8,10}
-	res := bs.SearchRange(nums,6)
+	nums := []int{0,0,0,0}
+	target := 0
+	res := array.FourSum(nums,target)
 	fmt.Println(res)
 }
